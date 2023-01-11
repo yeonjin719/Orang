@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C9B649AB296E707600EBB028 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B649AA296E707600EBB028 /* AppDelegate.swift */; };
+		C9B649AD296E707600EBB028 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B649AC296E707600EBB028 /* SceneDelegate.swift */; };
+		C9B649AF296E707600EBB028 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B649AE296E707600EBB028 /* ViewController.swift */; };
+		C9B649B2296E707600EBB028 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9B649B0296E707600EBB028 /* Main.storyboard */; };
+		C9B649B4296E707700EBB028 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9B649B3296E707700EBB028 /* Assets.xcassets */; };
+		C9B649B7296E707700EBB028 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9B649B5296E707700EBB028 /* LaunchScreen.storyboard */; };
+		C9B649C2296E707700EBB028 /* orang_loginTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B649C1296E707700EBB028 /* orang_loginTests.swift */; };
+		C9B649CC296E707700EBB028 /* orang_loginUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B649CB296E707700EBB028 /* orang_loginUITests.swift */; };
+		C9B649CE296E707700EBB028 /* orang_loginUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B649CD296E707700EBB028 /* orang_loginUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C9B649BE296E707700EBB028 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C9B6499F296E707600EBB028 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C9B649A6296E707600EBB028;
+			remoteInfo = orang_login;
+		};
+		C9B649C8296E707700EBB028 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C9B6499F296E707600EBB028 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C9B649A6296E707600EBB028;
+			remoteInfo = orang_login;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C9B649A7296E707600EBB028 /* orang_login.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = orang_login.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9B649AA296E707600EBB028 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C9B649AC296E707600EBB028 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C9B649AE296E707600EBB028 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C9B649B1296E707600EBB028 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C9B649B3296E707700EBB028 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C9B649B6296E707700EBB028 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C9B649B8296E707700EBB028 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9B649BD296E707700EBB028 /* orang_loginTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = orang_loginTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9B649C1296E707700EBB028 /* orang_loginTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = orang_loginTests.swift; sourceTree = "<group>"; };
+		C9B649C7296E707700EBB028 /* orang_loginUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = orang_loginUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9B649CB296E707700EBB028 /* orang_loginUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = orang_loginUITests.swift; sourceTree = "<group>"; };
+		C9B649CD296E707700EBB028 /* orang_loginUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = orang_loginUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C9B649A4296E707600EBB028 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9B649BA296E707700EBB028 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9B649C4296E707700EBB028 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C9B6499E296E707600EBB028 = {
+			isa = PBXGroup;
+			children = (
+				C9B649A9296E707600EBB028 /* orang_login */,
+				C9B649C0296E707700EBB028 /* orang_loginTests */,
+				C9B649CA296E707700EBB028 /* orang_loginUITests */,
+				C9B649A8296E707600EBB028 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C9B649A8296E707600EBB028 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C9B649A7296E707600EBB028 /* orang_login.app */,
+				C9B649BD296E707700EBB028 /* orang_loginTests.xctest */,
+				C9B649C7296E707700EBB028 /* orang_loginUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C9B649A9296E707600EBB028 /* orang_login */ = {
+			isa = PBXGroup;
+			children = (
+				C9B649AA296E707600EBB028 /* AppDelegate.swift */,
+				C9B649AC296E707600EBB028 /* SceneDelegate.swift */,
+				C9B649AE296E707600EBB028 /* ViewController.swift */,
+				C9B649B0296E707600EBB028 /* Main.storyboard */,
+				C9B649B3296E707700EBB028 /* Assets.xcassets */,
+				C9B649B5296E707700EBB028 /* LaunchScreen.storyboard */,
+				C9B649B8296E707700EBB028 /* Info.plist */,
+			);
+			path = orang_login;
+			sourceTree = "<group>";
+		};
+		C9B649C0296E707700EBB028 /* orang_loginTests */ = {
+			isa = PBXGroup;
+			children = (
+				C9B649C1296E707700EBB028 /* orang_loginTests.swift */,
+			);
+			path = orang_loginTests;
+			sourceTree = "<group>";
+		};
+		C9B649CA296E707700EBB028 /* orang_loginUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C9B649CB296E707700EBB028 /* orang_loginUITests.swift */,
+				C9B649CD296E707700EBB028 /* orang_loginUITestsLaunchTests.swift */,
+			);
+			path = orang_loginUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C9B649A6296E707600EBB028 /* orang_login */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9B649D1296E707700EBB028 /* Build configuration list for PBXNativeTarget "orang_login" */;
+			buildPhases = (
+				C9B649A3296E707600EBB028 /* Sources */,
+				C9B649A4296E707600EBB028 /* Frameworks */,
+				C9B649A5296E707600EBB028 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = orang_login;
+			productName = orang_login;
+			productReference = C9B649A7296E707600EBB028 /* orang_login.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C9B649BC296E707700EBB028 /* orang_loginTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9B649D4296E707700EBB028 /* Build configuration list for PBXNativeTarget "orang_loginTests" */;
+			buildPhases = (
+				C9B649B9296E707700EBB028 /* Sources */,
+				C9B649BA296E707700EBB028 /* Frameworks */,
+				C9B649BB296E707700EBB028 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C9B649BF296E707700EBB028 /* PBXTargetDependency */,
+			);
+			name = orang_loginTests;
+			productName = orang_loginTests;
+			productReference = C9B649BD296E707700EBB028 /* orang_loginTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C9B649C6296E707700EBB028 /* orang_loginUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9B649D7296E707700EBB028 /* Build configuration list for PBXNativeTarget "orang_loginUITests" */;
+			buildPhases = (
+				C9B649C3296E707700EBB028 /* Sources */,
+				C9B649C4296E707700EBB028 /* Frameworks */,
+				C9B649C5296E707700EBB028 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C9B649C9296E707700EBB028 /* PBXTargetDependency */,
+			);
+			name = orang_loginUITests;
+			productName = orang_loginUITests;
+			productReference = C9B649C7296E707700EBB028 /* orang_loginUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C9B6499F296E707600EBB028 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					C9B649A6296E707600EBB028 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					C9B649BC296E707700EBB028 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = C9B649A6296E707600EBB028;
+					};
+					C9B649C6296E707700EBB028 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = C9B649A6296E707600EBB028;
+					};
+				};
+			};
+			buildConfigurationList = C9B649A2296E707600EBB028 /* Build configuration list for PBXProject "orang_login" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C9B6499E296E707600EBB028;
+			productRefGroup = C9B649A8296E707600EBB028 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C9B649A6296E707600EBB028 /* orang_login */,
+				C9B649BC296E707700EBB028 /* orang_loginTests */,
+				C9B649C6296E707700EBB028 /* orang_loginUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C9B649A5296E707600EBB028 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9B649B7296E707700EBB028 /* LaunchScreen.storyboard in Resources */,
+				C9B649B4296E707700EBB028 /* Assets.xcassets in Resources */,
+				C9B649B2296E707600EBB028 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9B649BB296E707700EBB028 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9B649C5296E707700EBB028 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C9B649A3296E707600EBB028 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9B649AF296E707600EBB028 /* ViewController.swift in Sources */,
+				C9B649AB296E707600EBB028 /* AppDelegate.swift in Sources */,
+				C9B649AD296E707600EBB028 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9B649B9296E707700EBB028 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9B649C2296E707700EBB028 /* orang_loginTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9B649C3296E707700EBB028 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9B649CE296E707700EBB028 /* orang_loginUITestsLaunchTests.swift in Sources */,
+				C9B649CC296E707700EBB028 /* orang_loginUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C9B649BF296E707700EBB028 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C9B649A6296E707600EBB028 /* orang_login */;
+			targetProxy = C9B649BE296E707700EBB028 /* PBXContainerItemProxy */;
+		};
+		C9B649C9296E707700EBB028 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C9B649A6296E707600EBB028 /* orang_login */;
+			targetProxy = C9B649C8296E707700EBB028 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C9B649B0296E707600EBB028 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C9B649B1296E707600EBB028 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C9B649B5296E707700EBB028 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C9B649B6296E707700EBB028 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C9B649CF296E707700EBB028 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C9B649D0296E707700EBB028 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C9B649D2296E707700EBB028 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = orang_login/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "KimYeonJin.orang-login";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C9B649D3296E707700EBB028 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = orang_login/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "KimYeonJin.orang-login";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C9B649D5296E707700EBB028 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "KimYeonJin.orang-loginTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/orang_login.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/orang_login";
+			};
+			name = Debug;
+		};
+		C9B649D6296E707700EBB028 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "KimYeonJin.orang-loginTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/orang_login.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/orang_login";
+			};
+			name = Release;
+		};
+		C9B649D8296E707700EBB028 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "KimYeonJin.orang-loginUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = orang_login;
+			};
+			name = Debug;
+		};
+		C9B649D9296E707700EBB028 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "KimYeonJin.orang-loginUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = orang_login;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C9B649A2296E707600EBB028 /* Build configuration list for PBXProject "orang_login" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9B649CF296E707700EBB028 /* Debug */,
+				C9B649D0296E707700EBB028 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9B649D1296E707700EBB028 /* Build configuration list for PBXNativeTarget "orang_login" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9B649D2296E707700EBB028 /* Debug */,
+				C9B649D3296E707700EBB028 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9B649D4296E707700EBB028 /* Build configuration list for PBXNativeTarget "orang_loginTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9B649D5296E707700EBB028 /* Debug */,
+				C9B649D6296E707700EBB028 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9B649D7296E707700EBB028 /* Build configuration list for PBXNativeTarget "orang_loginUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9B649D8296E707700EBB028 /* Debug */,
+				C9B649D9296E707700EBB028 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C9B6499F296E707600EBB028 /* Project object */;
+}
