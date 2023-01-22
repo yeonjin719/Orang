@@ -1,0 +1,764 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1AC05DB190B73F318C49D2F5 /* Pods_MainPageOrang_MainPageOrangUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 383C092F7D73CC579D684BA5 /* Pods_MainPageOrang_MainPageOrangUITests.framework */; };
+		7FE919E56613BD8155EBC20C /* Pods_MainPageOrang.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E1E68039A062AD433811DA0 /* Pods_MainPageOrang.framework */; };
+		90FED3A570C94801AC00140D /* Pods_MainPageOrangTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 843F0204617DCAA8967A6BF0 /* Pods_MainPageOrangTests.framework */; };
+		C9A19977297D4A65000F67D5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A19976297D4A65000F67D5 /* AppDelegate.swift */; };
+		C9A19979297D4A65000F67D5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A19978297D4A65000F67D5 /* SceneDelegate.swift */; };
+		C9A1997B297D4A65000F67D5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A1997A297D4A65000F67D5 /* ViewController.swift */; };
+		C9A1997E297D4A65000F67D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9A1997C297D4A65000F67D5 /* Main.storyboard */; };
+		C9A19980297D4A66000F67D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9A1997F297D4A66000F67D5 /* Assets.xcassets */; };
+		C9A19983297D4A66000F67D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9A19981297D4A66000F67D5 /* LaunchScreen.storyboard */; };
+		C9A1998E297D4A66000F67D5 /* MainPageOrangTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A1998D297D4A66000F67D5 /* MainPageOrangTests.swift */; };
+		C9A19998297D4A66000F67D5 /* MainPageOrangUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A19997297D4A66000F67D5 /* MainPageOrangUITests.swift */; };
+		C9A1999A297D4A66000F67D5 /* MainPageOrangUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A19999297D4A66000F67D5 /* MainPageOrangUITestsLaunchTests.swift */; };
+		C9A199A7297D4AFD000F67D5 /* SideMenuNavigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A199A6297D4AFD000F67D5 /* SideMenuNavigator.swift */; };
+		C9A199A9297D4B1D000F67D5 /* SideMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A199A8297D4B1D000F67D5 /* SideMenuViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C9A1998A297D4A66000F67D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C9A1996B297D4A65000F67D5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C9A19972297D4A65000F67D5;
+			remoteInfo = MainPageOrang;
+		};
+		C9A19994297D4A66000F67D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C9A1996B297D4A65000F67D5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C9A19972297D4A65000F67D5;
+			remoteInfo = MainPageOrang;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2E8FF66F4C92B62BBC1C8C57 /* Pods-MainPageOrang-MainPageOrangUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MainPageOrang-MainPageOrangUITests.release.xcconfig"; path = "Target Support Files/Pods-MainPageOrang-MainPageOrangUITests/Pods-MainPageOrang-MainPageOrangUITests.release.xcconfig"; sourceTree = "<group>"; };
+		37D7F0C5AABAA9F60F0CD624 /* Pods-MainPageOrang.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MainPageOrang.debug.xcconfig"; path = "Target Support Files/Pods-MainPageOrang/Pods-MainPageOrang.debug.xcconfig"; sourceTree = "<group>"; };
+		383C092F7D73CC579D684BA5 /* Pods_MainPageOrang_MainPageOrangUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MainPageOrang_MainPageOrangUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		38D1A2556C9EEBCBF9082E21 /* Pods-MainPageOrangTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MainPageOrangTests.debug.xcconfig"; path = "Target Support Files/Pods-MainPageOrangTests/Pods-MainPageOrangTests.debug.xcconfig"; sourceTree = "<group>"; };
+		843F0204617DCAA8967A6BF0 /* Pods_MainPageOrangTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MainPageOrangTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E1E68039A062AD433811DA0 /* Pods_MainPageOrang.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MainPageOrang.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC5DA03B09A36866BE2D137F /* Pods-MainPageOrang.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MainPageOrang.release.xcconfig"; path = "Target Support Files/Pods-MainPageOrang/Pods-MainPageOrang.release.xcconfig"; sourceTree = "<group>"; };
+		C9A19973297D4A65000F67D5 /* MainPageOrang.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MainPageOrang.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9A19976297D4A65000F67D5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C9A19978297D4A65000F67D5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C9A1997A297D4A65000F67D5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C9A1997D297D4A65000F67D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C9A1997F297D4A66000F67D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C9A19982297D4A66000F67D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C9A19984297D4A66000F67D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9A19989297D4A66000F67D5 /* MainPageOrangTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MainPageOrangTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9A1998D297D4A66000F67D5 /* MainPageOrangTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPageOrangTests.swift; sourceTree = "<group>"; };
+		C9A19993297D4A66000F67D5 /* MainPageOrangUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MainPageOrangUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9A19997297D4A66000F67D5 /* MainPageOrangUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPageOrangUITests.swift; sourceTree = "<group>"; };
+		C9A19999297D4A66000F67D5 /* MainPageOrangUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPageOrangUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C9A199A6297D4AFD000F67D5 /* SideMenuNavigator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuNavigator.swift; sourceTree = "<group>"; };
+		C9A199A8297D4B1D000F67D5 /* SideMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuViewController.swift; sourceTree = "<group>"; };
+		F52372808969B0FFD04D2E54 /* Pods-MainPageOrangTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MainPageOrangTests.release.xcconfig"; path = "Target Support Files/Pods-MainPageOrangTests/Pods-MainPageOrangTests.release.xcconfig"; sourceTree = "<group>"; };
+		FE4F40B8F043E822E801F055 /* Pods-MainPageOrang-MainPageOrangUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MainPageOrang-MainPageOrangUITests.debug.xcconfig"; path = "Target Support Files/Pods-MainPageOrang-MainPageOrangUITests/Pods-MainPageOrang-MainPageOrangUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C9A19970297D4A65000F67D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FE919E56613BD8155EBC20C /* Pods_MainPageOrang.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9A19986297D4A66000F67D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90FED3A570C94801AC00140D /* Pods_MainPageOrangTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9A19990297D4A66000F67D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AC05DB190B73F318C49D2F5 /* Pods_MainPageOrang_MainPageOrangUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A93ACE6C65AD416DA772216A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8E1E68039A062AD433811DA0 /* Pods_MainPageOrang.framework */,
+				383C092F7D73CC579D684BA5 /* Pods_MainPageOrang_MainPageOrangUITests.framework */,
+				843F0204617DCAA8967A6BF0 /* Pods_MainPageOrangTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C9A1996A297D4A65000F67D5 = {
+			isa = PBXGroup;
+			children = (
+				C9A19975297D4A65000F67D5 /* MainPageOrang */,
+				C9A1998C297D4A66000F67D5 /* MainPageOrangTests */,
+				C9A19996297D4A66000F67D5 /* MainPageOrangUITests */,
+				C9A19974297D4A65000F67D5 /* Products */,
+				EDFF7D02146F6F295AA7D9E3 /* Pods */,
+				A93ACE6C65AD416DA772216A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C9A19974297D4A65000F67D5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C9A19973297D4A65000F67D5 /* MainPageOrang.app */,
+				C9A19989297D4A66000F67D5 /* MainPageOrangTests.xctest */,
+				C9A19993297D4A66000F67D5 /* MainPageOrangUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C9A19975297D4A65000F67D5 /* MainPageOrang */ = {
+			isa = PBXGroup;
+			children = (
+				C9A19976297D4A65000F67D5 /* AppDelegate.swift */,
+				C9A19978297D4A65000F67D5 /* SceneDelegate.swift */,
+				C9A1997A297D4A65000F67D5 /* ViewController.swift */,
+				C9A1997C297D4A65000F67D5 /* Main.storyboard */,
+				C9A1997F297D4A66000F67D5 /* Assets.xcassets */,
+				C9A19981297D4A66000F67D5 /* LaunchScreen.storyboard */,
+				C9A199A6297D4AFD000F67D5 /* SideMenuNavigator.swift */,
+				C9A199A8297D4B1D000F67D5 /* SideMenuViewController.swift */,
+				C9A19984297D4A66000F67D5 /* Info.plist */,
+			);
+			path = MainPageOrang;
+			sourceTree = "<group>";
+		};
+		C9A1998C297D4A66000F67D5 /* MainPageOrangTests */ = {
+			isa = PBXGroup;
+			children = (
+				C9A1998D297D4A66000F67D5 /* MainPageOrangTests.swift */,
+			);
+			path = MainPageOrangTests;
+			sourceTree = "<group>";
+		};
+		C9A19996297D4A66000F67D5 /* MainPageOrangUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C9A19997297D4A66000F67D5 /* MainPageOrangUITests.swift */,
+				C9A19999297D4A66000F67D5 /* MainPageOrangUITestsLaunchTests.swift */,
+			);
+			path = MainPageOrangUITests;
+			sourceTree = "<group>";
+		};
+		EDFF7D02146F6F295AA7D9E3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				37D7F0C5AABAA9F60F0CD624 /* Pods-MainPageOrang.debug.xcconfig */,
+				AC5DA03B09A36866BE2D137F /* Pods-MainPageOrang.release.xcconfig */,
+				FE4F40B8F043E822E801F055 /* Pods-MainPageOrang-MainPageOrangUITests.debug.xcconfig */,
+				2E8FF66F4C92B62BBC1C8C57 /* Pods-MainPageOrang-MainPageOrangUITests.release.xcconfig */,
+				38D1A2556C9EEBCBF9082E21 /* Pods-MainPageOrangTests.debug.xcconfig */,
+				F52372808969B0FFD04D2E54 /* Pods-MainPageOrangTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C9A19972297D4A65000F67D5 /* MainPageOrang */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9A1999D297D4A66000F67D5 /* Build configuration list for PBXNativeTarget "MainPageOrang" */;
+			buildPhases = (
+				F2F0DD1BF04848BA410F4E0D /* [CP] Check Pods Manifest.lock */,
+				C9A1996F297D4A65000F67D5 /* Sources */,
+				C9A19970297D4A65000F67D5 /* Frameworks */,
+				C9A19971297D4A65000F67D5 /* Resources */,
+				B6DBEC298F999367B1107C17 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MainPageOrang;
+			productName = MainPageOrang;
+			productReference = C9A19973297D4A65000F67D5 /* MainPageOrang.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C9A19988297D4A66000F67D5 /* MainPageOrangTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9A199A0297D4A66000F67D5 /* Build configuration list for PBXNativeTarget "MainPageOrangTests" */;
+			buildPhases = (
+				4E979917F81839C8AF84D68D /* [CP] Check Pods Manifest.lock */,
+				C9A19985297D4A66000F67D5 /* Sources */,
+				C9A19986297D4A66000F67D5 /* Frameworks */,
+				C9A19987297D4A66000F67D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C9A1998B297D4A66000F67D5 /* PBXTargetDependency */,
+			);
+			name = MainPageOrangTests;
+			productName = MainPageOrangTests;
+			productReference = C9A19989297D4A66000F67D5 /* MainPageOrangTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C9A19992297D4A66000F67D5 /* MainPageOrangUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9A199A3297D4A66000F67D5 /* Build configuration list for PBXNativeTarget "MainPageOrangUITests" */;
+			buildPhases = (
+				9D3DCCB79FE5DB4719526674 /* [CP] Check Pods Manifest.lock */,
+				C9A1998F297D4A66000F67D5 /* Sources */,
+				C9A19990297D4A66000F67D5 /* Frameworks */,
+				C9A19991297D4A66000F67D5 /* Resources */,
+				AC6B8B1F35B7522A126B772F /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C9A19995297D4A66000F67D5 /* PBXTargetDependency */,
+			);
+			name = MainPageOrangUITests;
+			productName = MainPageOrangUITests;
+			productReference = C9A19993297D4A66000F67D5 /* MainPageOrangUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C9A1996B297D4A65000F67D5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					C9A19972297D4A65000F67D5 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					C9A19988297D4A66000F67D5 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = C9A19972297D4A65000F67D5;
+					};
+					C9A19992297D4A66000F67D5 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = C9A19972297D4A65000F67D5;
+					};
+				};
+			};
+			buildConfigurationList = C9A1996E297D4A65000F67D5 /* Build configuration list for PBXProject "MainPageOrang" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C9A1996A297D4A65000F67D5;
+			productRefGroup = C9A19974297D4A65000F67D5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C9A19972297D4A65000F67D5 /* MainPageOrang */,
+				C9A19988297D4A66000F67D5 /* MainPageOrangTests */,
+				C9A19992297D4A66000F67D5 /* MainPageOrangUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C9A19971297D4A65000F67D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9A19983297D4A66000F67D5 /* LaunchScreen.storyboard in Resources */,
+				C9A19980297D4A66000F67D5 /* Assets.xcassets in Resources */,
+				C9A1997E297D4A65000F67D5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9A19987297D4A66000F67D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9A19991297D4A66000F67D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4E979917F81839C8AF84D68D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MainPageOrangTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9D3DCCB79FE5DB4719526674 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MainPageOrang-MainPageOrangUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AC6B8B1F35B7522A126B772F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MainPageOrang-MainPageOrangUITests/Pods-MainPageOrang-MainPageOrangUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MainPageOrang-MainPageOrangUITests/Pods-MainPageOrang-MainPageOrangUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MainPageOrang-MainPageOrangUITests/Pods-MainPageOrang-MainPageOrangUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B6DBEC298F999367B1107C17 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MainPageOrang/Pods-MainPageOrang-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MainPageOrang/Pods-MainPageOrang-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MainPageOrang/Pods-MainPageOrang-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F2F0DD1BF04848BA410F4E0D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MainPageOrang-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C9A1996F297D4A65000F67D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9A1997B297D4A65000F67D5 /* ViewController.swift in Sources */,
+				C9A19977297D4A65000F67D5 /* AppDelegate.swift in Sources */,
+				C9A19979297D4A65000F67D5 /* SceneDelegate.swift in Sources */,
+				C9A199A9297D4B1D000F67D5 /* SideMenuViewController.swift in Sources */,
+				C9A199A7297D4AFD000F67D5 /* SideMenuNavigator.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9A19985297D4A66000F67D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9A1998E297D4A66000F67D5 /* MainPageOrangTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9A1998F297D4A66000F67D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9A1999A297D4A66000F67D5 /* MainPageOrangUITestsLaunchTests.swift in Sources */,
+				C9A19998297D4A66000F67D5 /* MainPageOrangUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C9A1998B297D4A66000F67D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C9A19972297D4A65000F67D5 /* MainPageOrang */;
+			targetProxy = C9A1998A297D4A66000F67D5 /* PBXContainerItemProxy */;
+		};
+		C9A19995297D4A66000F67D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C9A19972297D4A65000F67D5 /* MainPageOrang */;
+			targetProxy = C9A19994297D4A66000F67D5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C9A1997C297D4A65000F67D5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C9A1997D297D4A65000F67D5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C9A19981297D4A66000F67D5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C9A19982297D4A66000F67D5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C9A1999B297D4A66000F67D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C9A1999C297D4A66000F67D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C9A1999E297D4A66000F67D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37D7F0C5AABAA9F60F0CD624 /* Pods-MainPageOrang.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MainPageOrang/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = KimYeonJin.MainPageOrang;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C9A1999F297D4A66000F67D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC5DA03B09A36866BE2D137F /* Pods-MainPageOrang.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MainPageOrang/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = KimYeonJin.MainPageOrang;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C9A199A1297D4A66000F67D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38D1A2556C9EEBCBF9082E21 /* Pods-MainPageOrangTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = KimYeonJin.MainPageOrangTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MainPageOrang.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MainPageOrang";
+			};
+			name = Debug;
+		};
+		C9A199A2297D4A66000F67D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F52372808969B0FFD04D2E54 /* Pods-MainPageOrangTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = KimYeonJin.MainPageOrangTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MainPageOrang.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MainPageOrang";
+			};
+			name = Release;
+		};
+		C9A199A4297D4A66000F67D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE4F40B8F043E822E801F055 /* Pods-MainPageOrang-MainPageOrangUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = KimYeonJin.MainPageOrangUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MainPageOrang;
+			};
+			name = Debug;
+		};
+		C9A199A5297D4A66000F67D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E8FF66F4C92B62BBC1C8C57 /* Pods-MainPageOrang-MainPageOrangUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = KimYeonJin.MainPageOrangUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MainPageOrang;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C9A1996E297D4A65000F67D5 /* Build configuration list for PBXProject "MainPageOrang" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9A1999B297D4A66000F67D5 /* Debug */,
+				C9A1999C297D4A66000F67D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9A1999D297D4A66000F67D5 /* Build configuration list for PBXNativeTarget "MainPageOrang" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9A1999E297D4A66000F67D5 /* Debug */,
+				C9A1999F297D4A66000F67D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9A199A0297D4A66000F67D5 /* Build configuration list for PBXNativeTarget "MainPageOrangTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9A199A1297D4A66000F67D5 /* Debug */,
+				C9A199A2297D4A66000F67D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9A199A3297D4A66000F67D5 /* Build configuration list for PBXNativeTarget "MainPageOrangUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9A199A4297D4A66000F67D5 /* Debug */,
+				C9A199A5297D4A66000F67D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C9A1996B297D4A65000F67D5 /* Project object */;
+}

@@ -1,0 +1,1215 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		057B453F4AE14D10EA77D38FA1A0B8FB /* SideMenuPresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77CB926E8DE34B7FDC0BD914BC5892F5 /* SideMenuPresentationController.swift */; };
+		12ADE5E4936A11588E80505072750A32 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		1F0DDBBAF86A028D6D60A7E10B4D3634 /* SideMenu-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C461416A739D67D62F744E92E619DB99 /* SideMenu-dummy.m */; };
+		3091F1A82E0FD6ABA766EBC91D4E5DE6 /* Then.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9745242AA22ED12C5880DB485C597774 /* Then.swift */; };
+		3817F4830A10E51D20B72530EF6A56D2 /* SideMenuTransitionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 960CC1DE9A345999DE6AAC3866AC1E80 /* SideMenuTransitionController.swift */; };
+		4935F0940B59F70B8816EC6CC939A75E /* Pods-MainPageOrang-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E2769A1A1D78527737E713616C8E0292 /* Pods-MainPageOrang-dummy.m */; };
+		4BD63F00797EAC6489EB694A064F9FCC /* Pods-MainPageOrang-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A4DFF66FC2E394C62360FFE72E7F901 /* Pods-MainPageOrang-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5587C359D9C8789950E7F6585C2292E7 /* SideMenuPresentationStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB1245B9328295A3C9A0AF9F6EBEAE1 /* SideMenuPresentationStyle.swift */; };
+		5E3BF2B719B3A034C173D16B3ABF682E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		74106BDED4B8B2281DFE4BE5E109D847 /* Initializable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 927755562FEFAEA1D9C14799387796DE /* Initializable.swift */; };
+		887D7E546D6837CC964318D1B0C842D9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		92FC3EDB69AE6439890C47543F67FAD6 /* Pods-MainPageOrangTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CED4206F1C4CBB7AF0702B2EC8924A9 /* Pods-MainPageOrangTests-dummy.m */; };
+		9BB4760D2740D1EC0C950A67E4E4564E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		9E9F19E0120EA3C46967C28E637F52C8 /* SideMenuNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47A0C2BB1FAE1444CEA7B34688BBE336 /* SideMenuNavigationController.swift */; };
+		A892A3F92A4B151AD508CFCD080082A4 /* Then-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A48F76EBC05D0BB38C5999BA70932F32 /* Then-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B804587E525773FCA9698855B2C752DC /* SideMenuAnimationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 093C92310EC77D0A297459FD6B5F70C3 /* SideMenuAnimationController.swift */; };
+		BC9C2E663681EDDBFE985034DCC7AAAF /* UITableViewVibrantCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 102CADD47F6922544B075B6C0C541D17 /* UITableViewVibrantCell.swift */; };
+		BE79F903F87E7D5918C6414E6203743E /* Print.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15FDA3B9F39B6DB8B348487038D54D74 /* Print.swift */; };
+		D3BE0026C39E4B360BBDA0D5C57DD25D /* Deprecations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA3EC22C0DD7F580366C4103C7CD55D /* Deprecations.swift */; };
+		D676556913324F0F6D62108F4B100766 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		D936EF159A167C7E4C5E5764C22F458F /* Then-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C1C5958B4B50ECE06A7A8ECD5D104606 /* Then-dummy.m */; };
+		DAD5950A205347FCDBD3751604472431 /* Protected.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F0CF554EED6F7F0F57CBEF6866D70D1 /* Protected.swift */; };
+		DAECFDE34D0B7D65384C55949C4E0235 /* Pods-MainPageOrang-MainPageOrangUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6818BF54588C21854110595DA5B6C541 /* Pods-MainPageOrang-MainPageOrangUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E0DE84C68DF4E38A487683891EF2A2FF /* Pods-MainPageOrang-MainPageOrangUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 325EE183D974162B74ABE7D8EAF21F44 /* Pods-MainPageOrang-MainPageOrangUITests-dummy.m */; };
+		E5359A15DDEA913BBAFDA8266D930206 /* Pods-MainPageOrangTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8935D7DA193371886D1E3137AD004A5C /* Pods-MainPageOrangTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E56EEF71CC5AF0DA40228F2CA67B4BA0 /* SideMenu-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 751F6CFCD048896700BAECB81FC9CA89 /* SideMenu-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E709C98B763E8065628D8E88715E0BF8 /* SideMenuManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A916E36497385A6F565AECA7097EB6 /* SideMenuManager.swift */; };
+		E72252B09CC270B50217CA6AEABD620A /* SideMenuPushCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725838B8B3D7FD1DAE44E48FE79EE659 /* SideMenuPushCoordinator.swift */; };
+		E97C7A323474D0205E872AE7BC773650 /* SideMenuInteractionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53528F250D0CA18A57F8F9C89BAD1B46 /* SideMenuInteractionController.swift */; };
+		F28D439429A375B6D4FCD037ED317CD6 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA3971CF99A28E9F2337CB4A495EC9AD /* Extensions.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		057F8B0B3EF24A2E7E42A9A3EDA2B825 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C17AEFC79E770A2906EFAAB1A3757406;
+			remoteInfo = Then;
+		};
+		56F26DA3694CA5105BC8975B808A47F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C17AEFC79E770A2906EFAAB1A3757406;
+			remoteInfo = Then;
+		};
+		69403D5006E1221325FFB2B36CF8E645 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C4A0A7D8591B67FB75E2E8D215E3735B;
+			remoteInfo = SideMenu;
+		};
+		9299DE874E47C132F256A398F7441A5F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C4A0A7D8591B67FB75E2E8D215E3735B;
+			remoteInfo = SideMenu;
+		};
+		CB339AA8781576972D08F79E2C58B318 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9E6064C946F9ABDC4D6951FA7A530139;
+			remoteInfo = "Pods-MainPageOrang";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		006E151E7DDED66D3A5FA1125BE45FFB /* Then-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Then-Info.plist"; sourceTree = "<group>"; };
+		00F94B7CA0437129C895071C3C2713E1 /* Pods-MainPageOrangTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MainPageOrangTests-Info.plist"; sourceTree = "<group>"; };
+		093C92310EC77D0A297459FD6B5F70C3 /* SideMenuAnimationController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SideMenuAnimationController.swift; path = Pod/Classes/SideMenuAnimationController.swift; sourceTree = "<group>"; };
+		09E9C0F56C3FAFDB38A4687C528C71D2 /* Then.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Then.debug.xcconfig; sourceTree = "<group>"; };
+		0B369CF3D205D07A8ED98F20D8526CBF /* Pods-MainPageOrang-MainPageOrangUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MainPageOrang-MainPageOrangUITests.release.xcconfig"; sourceTree = "<group>"; };
+		0D3610BEBEA820CF98783D2BE3B3CF3B /* Pods-MainPageOrang.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MainPageOrang.modulemap"; sourceTree = "<group>"; };
+		0D4654A5DAB7CD21882FFF557CE573D8 /* Pods-MainPageOrang-MainPageOrangUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MainPageOrang-MainPageOrangUITests.modulemap"; sourceTree = "<group>"; };
+		102CADD47F6922544B075B6C0C541D17 /* UITableViewVibrantCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UITableViewVibrantCell.swift; path = Pod/Classes/UITableViewVibrantCell.swift; sourceTree = "<group>"; };
+		10609FD65B88EA2A73F897E3F040346B /* Pods-MainPageOrang.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MainPageOrang.release.xcconfig"; sourceTree = "<group>"; };
+		10A916E36497385A6F565AECA7097EB6 /* SideMenuManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SideMenuManager.swift; path = Pod/Classes/SideMenuManager.swift; sourceTree = "<group>"; };
+		1492F7EAA11EC905D0059DAFADEF3F21 /* Pods-MainPageOrang-MainPageOrangUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MainPageOrang-MainPageOrangUITests-frameworks.sh"; sourceTree = "<group>"; };
+		15FDA3B9F39B6DB8B348487038D54D74 /* Print.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Print.swift; path = Pod/Classes/Print.swift; sourceTree = "<group>"; };
+		1B4E9BA5853812C82B6DDCFC4C5CD7B7 /* Pods-MainPageOrang-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MainPageOrang-acknowledgements.plist"; sourceTree = "<group>"; };
+		1F0CF554EED6F7F0F57CBEF6866D70D1 /* Protected.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Protected.swift; path = Pod/Classes/Protected.swift; sourceTree = "<group>"; };
+		2A4DFF66FC2E394C62360FFE72E7F901 /* Pods-MainPageOrang-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MainPageOrang-umbrella.h"; sourceTree = "<group>"; };
+		2C1A98FE71A3A2460B9B62DEDC000A34 /* Pods-MainPageOrang */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-MainPageOrang"; path = Pods_MainPageOrang.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		319D06AA0D1D0BA345459C039040A1ED /* SideMenu */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SideMenu; path = SideMenu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		325EE183D974162B74ABE7D8EAF21F44 /* Pods-MainPageOrang-MainPageOrangUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MainPageOrang-MainPageOrangUITests-dummy.m"; sourceTree = "<group>"; };
+		47A0C2BB1FAE1444CEA7B34688BBE336 /* SideMenuNavigationController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SideMenuNavigationController.swift; path = Pod/Classes/SideMenuNavigationController.swift; sourceTree = "<group>"; };
+		53528F250D0CA18A57F8F9C89BAD1B46 /* SideMenuInteractionController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SideMenuInteractionController.swift; path = Pod/Classes/SideMenuInteractionController.swift; sourceTree = "<group>"; };
+		539785B4F9A1C9BC30AD48AB11345CCE /* Pods-MainPageOrang-MainPageOrangUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MainPageOrang-MainPageOrangUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5E68C6FA2E8EE39C19E4629112DB91B3 /* SideMenu.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SideMenu.debug.xcconfig; sourceTree = "<group>"; };
+		6818BF54588C21854110595DA5B6C541 /* Pods-MainPageOrang-MainPageOrangUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MainPageOrang-MainPageOrangUITests-umbrella.h"; sourceTree = "<group>"; };
+		6E38E1F7B56BBA59FBF9E277547CA712 /* SideMenu-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SideMenu-prefix.pch"; sourceTree = "<group>"; };
+		715EBE5DF0082D030E740CB648FBB07E /* Pods-MainPageOrang.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MainPageOrang.debug.xcconfig"; sourceTree = "<group>"; };
+		725838B8B3D7FD1DAE44E48FE79EE659 /* SideMenuPushCoordinator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SideMenuPushCoordinator.swift; path = Pod/Classes/SideMenuPushCoordinator.swift; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		751F6CFCD048896700BAECB81FC9CA89 /* SideMenu-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SideMenu-umbrella.h"; sourceTree = "<group>"; };
+		77CB926E8DE34B7FDC0BD914BC5892F5 /* SideMenuPresentationController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SideMenuPresentationController.swift; path = Pod/Classes/SideMenuPresentationController.swift; sourceTree = "<group>"; };
+		7AE9E9DA07F730CA7B94D86DBB6EDD65 /* Pods-MainPageOrang-MainPageOrangUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-MainPageOrang-MainPageOrangUITests"; path = Pods_MainPageOrang_MainPageOrangUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BBE4F7D195008FB44B68C3D536B4C6B /* Pods-MainPageOrang-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MainPageOrang-frameworks.sh"; sourceTree = "<group>"; };
+		7D705821941D1957510AD13D56220DB2 /* SideMenu-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SideMenu-Info.plist"; sourceTree = "<group>"; };
+		8473D7726C6961BA1BB45BC4C0CC11BF /* Then.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Then.release.xcconfig; sourceTree = "<group>"; };
+		8935D7DA193371886D1E3137AD004A5C /* Pods-MainPageOrangTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MainPageOrangTests-umbrella.h"; sourceTree = "<group>"; };
+		8CED4206F1C4CBB7AF0702B2EC8924A9 /* Pods-MainPageOrangTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MainPageOrangTests-dummy.m"; sourceTree = "<group>"; };
+		927755562FEFAEA1D9C14799387796DE /* Initializable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Initializable.swift; path = Pod/Classes/Initializable.swift; sourceTree = "<group>"; };
+		9317E4947CA2FE1B5D5999034C09CCA7 /* Then */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Then; path = Then.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93494289D91E6A10D3A3D9761178DAE3 /* Pods-MainPageOrangTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MainPageOrangTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		960CC1DE9A345999DE6AAC3866AC1E80 /* SideMenuTransitionController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SideMenuTransitionController.swift; path = Pod/Classes/SideMenuTransitionController.swift; sourceTree = "<group>"; };
+		9745242AA22ED12C5880DB485C597774 /* Then.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Then.swift; path = Sources/Then/Then.swift; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9DA3EC22C0DD7F580366C4103C7CD55D /* Deprecations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Deprecations.swift; path = Pod/Classes/Deprecations.swift; sourceTree = "<group>"; };
+		A29C280AB69459AF47500E45DEE1C6AF /* Pods-MainPageOrangTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MainPageOrangTests.modulemap"; sourceTree = "<group>"; };
+		A34B06D6CD20FA095F73F3E3ECE1C465 /* Then.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Then.modulemap; sourceTree = "<group>"; };
+		A48F76EBC05D0BB38C5999BA70932F32 /* Then-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Then-umbrella.h"; sourceTree = "<group>"; };
+		AA23005C51818AD526C18CEC62AF3B64 /* Pods-MainPageOrang-MainPageOrangUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MainPageOrang-MainPageOrangUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		ACB1245B9328295A3C9A0AF9F6EBEAE1 /* SideMenuPresentationStyle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SideMenuPresentationStyle.swift; path = Pod/Classes/SideMenuPresentationStyle.swift; sourceTree = "<group>"; };
+		C1C5958B4B50ECE06A7A8ECD5D104606 /* Then-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Then-dummy.m"; sourceTree = "<group>"; };
+		C461416A739D67D62F744E92E619DB99 /* SideMenu-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SideMenu-dummy.m"; sourceTree = "<group>"; };
+		C6CFBB8CF86AF6D38BBF3CFBB41532F5 /* Pods-MainPageOrang-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MainPageOrang-Info.plist"; sourceTree = "<group>"; };
+		CA3971CF99A28E9F2337CB4A495EC9AD /* Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = Pod/Classes/Extensions.swift; sourceTree = "<group>"; };
+		D70EBFC2D72F5EC957579D3954358966 /* SideMenu.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SideMenu.modulemap; sourceTree = "<group>"; };
+		D74B35D2FA590E3908F2EF81BE6F63C4 /* Then-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Then-prefix.pch"; sourceTree = "<group>"; };
+		D7AC5E25654862176C926714979C09FC /* SideMenu.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SideMenu.release.xcconfig; sourceTree = "<group>"; };
+		DE83C038F2F70CAA7943AC7B064275E0 /* Pods-MainPageOrang-MainPageOrangUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MainPageOrang-MainPageOrangUITests-Info.plist"; sourceTree = "<group>"; };
+		E2769A1A1D78527737E713616C8E0292 /* Pods-MainPageOrang-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MainPageOrang-dummy.m"; sourceTree = "<group>"; };
+		E535A76ECCD5D6D2B858801B7F62C354 /* Pods-MainPageOrang-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MainPageOrang-acknowledgements.markdown"; sourceTree = "<group>"; };
+		EF1E06BFABB01D7B200C34AF94A30A3F /* Pods-MainPageOrangTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MainPageOrangTests.release.xcconfig"; sourceTree = "<group>"; };
+		F6193653F742443A4E48A692B653B47B /* Pods-MainPageOrang-MainPageOrangUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MainPageOrang-MainPageOrangUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		F7AD9919FD8CDFA8E16FD9A022BDE6C5 /* Pods-MainPageOrangTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MainPageOrangTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		FD2217A040AE3CB4921F11F642336534 /* Pods-MainPageOrangTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MainPageOrangTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FE1B3BE413D92E3FEC300E4E4CABABC1 /* Pods-MainPageOrangTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-MainPageOrangTests"; path = Pods_MainPageOrangTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1C7F6B1A84587AC619A4EF31C405B20D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BB4760D2740D1EC0C950A67E4E4564E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DC25AA7986F2BF0AC82E6132A31A66D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				887D7E546D6837CC964318D1B0C842D9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FE2248BE074A7DE206C4EC61CF99090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12ADE5E4936A11588E80505072750A32 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CED9114A89660561C1003E8ADB8FAE6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D676556913324F0F6D62108F4B100766 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B110F4A89B80E9EA29019FC5CA16B326 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E3BF2B719B3A034C173D16B3ABF682E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07094CEBFB43E1607FAF2D79AC38E526 /* Pods-MainPageOrangTests */ = {
+			isa = PBXGroup;
+			children = (
+				A29C280AB69459AF47500E45DEE1C6AF /* Pods-MainPageOrangTests.modulemap */,
+				93494289D91E6A10D3A3D9761178DAE3 /* Pods-MainPageOrangTests-acknowledgements.markdown */,
+				F7AD9919FD8CDFA8E16FD9A022BDE6C5 /* Pods-MainPageOrangTests-acknowledgements.plist */,
+				8CED4206F1C4CBB7AF0702B2EC8924A9 /* Pods-MainPageOrangTests-dummy.m */,
+				00F94B7CA0437129C895071C3C2713E1 /* Pods-MainPageOrangTests-Info.plist */,
+				8935D7DA193371886D1E3137AD004A5C /* Pods-MainPageOrangTests-umbrella.h */,
+				FD2217A040AE3CB4921F11F642336534 /* Pods-MainPageOrangTests.debug.xcconfig */,
+				EF1E06BFABB01D7B200C34AF94A30A3F /* Pods-MainPageOrangTests.release.xcconfig */,
+			);
+			name = "Pods-MainPageOrangTests";
+			path = "Target Support Files/Pods-MainPageOrangTests";
+			sourceTree = "<group>";
+		};
+		20464BD841E6830799FCEE1E70444BCD /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D70EBFC2D72F5EC957579D3954358966 /* SideMenu.modulemap */,
+				C461416A739D67D62F744E92E619DB99 /* SideMenu-dummy.m */,
+				7D705821941D1957510AD13D56220DB2 /* SideMenu-Info.plist */,
+				6E38E1F7B56BBA59FBF9E277547CA712 /* SideMenu-prefix.pch */,
+				751F6CFCD048896700BAECB81FC9CA89 /* SideMenu-umbrella.h */,
+				5E68C6FA2E8EE39C19E4629112DB91B3 /* SideMenu.debug.xcconfig */,
+				D7AC5E25654862176C926714979C09FC /* SideMenu.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SideMenu";
+			sourceTree = "<group>";
+		};
+		245B5DB35EAED3349801781ADD83B64E /* Pods-MainPageOrang-MainPageOrangUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0D4654A5DAB7CD21882FFF557CE573D8 /* Pods-MainPageOrang-MainPageOrangUITests.modulemap */,
+				AA23005C51818AD526C18CEC62AF3B64 /* Pods-MainPageOrang-MainPageOrangUITests-acknowledgements.markdown */,
+				F6193653F742443A4E48A692B653B47B /* Pods-MainPageOrang-MainPageOrangUITests-acknowledgements.plist */,
+				325EE183D974162B74ABE7D8EAF21F44 /* Pods-MainPageOrang-MainPageOrangUITests-dummy.m */,
+				1492F7EAA11EC905D0059DAFADEF3F21 /* Pods-MainPageOrang-MainPageOrangUITests-frameworks.sh */,
+				DE83C038F2F70CAA7943AC7B064275E0 /* Pods-MainPageOrang-MainPageOrangUITests-Info.plist */,
+				6818BF54588C21854110595DA5B6C541 /* Pods-MainPageOrang-MainPageOrangUITests-umbrella.h */,
+				539785B4F9A1C9BC30AD48AB11345CCE /* Pods-MainPageOrang-MainPageOrangUITests.debug.xcconfig */,
+				0B369CF3D205D07A8ED98F20D8526CBF /* Pods-MainPageOrang-MainPageOrangUITests.release.xcconfig */,
+			);
+			name = "Pods-MainPageOrang-MainPageOrangUITests";
+			path = "Target Support Files/Pods-MainPageOrang-MainPageOrangUITests";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		6A48BB6B295A593F3B79293C15F59652 /* Then */ = {
+			isa = PBXGroup;
+			children = (
+				9745242AA22ED12C5880DB485C597774 /* Then.swift */,
+				F94F611B7D3CB5C73BF994EB5FD29365 /* Support Files */,
+			);
+			name = Then;
+			path = Then;
+			sourceTree = "<group>";
+		};
+		757A1A94AC59DC5BC059D2B1487A97EE /* SideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				9DA3EC22C0DD7F580366C4103C7CD55D /* Deprecations.swift */,
+				CA3971CF99A28E9F2337CB4A495EC9AD /* Extensions.swift */,
+				927755562FEFAEA1D9C14799387796DE /* Initializable.swift */,
+				15FDA3B9F39B6DB8B348487038D54D74 /* Print.swift */,
+				1F0CF554EED6F7F0F57CBEF6866D70D1 /* Protected.swift */,
+				093C92310EC77D0A297459FD6B5F70C3 /* SideMenuAnimationController.swift */,
+				53528F250D0CA18A57F8F9C89BAD1B46 /* SideMenuInteractionController.swift */,
+				10A916E36497385A6F565AECA7097EB6 /* SideMenuManager.swift */,
+				47A0C2BB1FAE1444CEA7B34688BBE336 /* SideMenuNavigationController.swift */,
+				77CB926E8DE34B7FDC0BD914BC5892F5 /* SideMenuPresentationController.swift */,
+				ACB1245B9328295A3C9A0AF9F6EBEAE1 /* SideMenuPresentationStyle.swift */,
+				725838B8B3D7FD1DAE44E48FE79EE659 /* SideMenuPushCoordinator.swift */,
+				960CC1DE9A345999DE6AAC3866AC1E80 /* SideMenuTransitionController.swift */,
+				102CADD47F6922544B075B6C0C541D17 /* UITableViewVibrantCell.swift */,
+				20464BD841E6830799FCEE1E70444BCD /* Support Files */,
+			);
+			name = SideMenu;
+			path = SideMenu;
+			sourceTree = "<group>";
+		};
+		85C9D51DEC4C0180A38AEF6C0024428F /* Pods-MainPageOrang */ = {
+			isa = PBXGroup;
+			children = (
+				0D3610BEBEA820CF98783D2BE3B3CF3B /* Pods-MainPageOrang.modulemap */,
+				E535A76ECCD5D6D2B858801B7F62C354 /* Pods-MainPageOrang-acknowledgements.markdown */,
+				1B4E9BA5853812C82B6DDCFC4C5CD7B7 /* Pods-MainPageOrang-acknowledgements.plist */,
+				E2769A1A1D78527737E713616C8E0292 /* Pods-MainPageOrang-dummy.m */,
+				7BBE4F7D195008FB44B68C3D536B4C6B /* Pods-MainPageOrang-frameworks.sh */,
+				C6CFBB8CF86AF6D38BBF3CFBB41532F5 /* Pods-MainPageOrang-Info.plist */,
+				2A4DFF66FC2E394C62360FFE72E7F901 /* Pods-MainPageOrang-umbrella.h */,
+				715EBE5DF0082D030E740CB648FBB07E /* Pods-MainPageOrang.debug.xcconfig */,
+				10609FD65B88EA2A73F897E3F040346B /* Pods-MainPageOrang.release.xcconfig */,
+			);
+			name = "Pods-MainPageOrang";
+			path = "Target Support Files/Pods-MainPageOrang";
+			sourceTree = "<group>";
+		};
+		A5FF84DFFEBCEF53C98059539E88BF32 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				85C9D51DEC4C0180A38AEF6C0024428F /* Pods-MainPageOrang */,
+				245B5DB35EAED3349801781ADD83B64E /* Pods-MainPageOrang-MainPageOrangUITests */,
+				07094CEBFB43E1607FAF2D79AC38E526 /* Pods-MainPageOrangTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				E9E7024E48FD4177279C7E73FAE4D156 /* Pods */,
+				E71B9F74E1E9E03FA698C622B712F88D /* Products */,
+				A5FF84DFFEBCEF53C98059539E88BF32 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E71B9F74E1E9E03FA698C622B712F88D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2C1A98FE71A3A2460B9B62DEDC000A34 /* Pods-MainPageOrang */,
+				7AE9E9DA07F730CA7B94D86DBB6EDD65 /* Pods-MainPageOrang-MainPageOrangUITests */,
+				FE1B3BE413D92E3FEC300E4E4CABABC1 /* Pods-MainPageOrangTests */,
+				319D06AA0D1D0BA345459C039040A1ED /* SideMenu */,
+				9317E4947CA2FE1B5D5999034C09CCA7 /* Then */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E9E7024E48FD4177279C7E73FAE4D156 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				757A1A94AC59DC5BC059D2B1487A97EE /* SideMenu */,
+				6A48BB6B295A593F3B79293C15F59652 /* Then */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F94F611B7D3CB5C73BF994EB5FD29365 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A34B06D6CD20FA095F73F3E3ECE1C465 /* Then.modulemap */,
+				C1C5958B4B50ECE06A7A8ECD5D104606 /* Then-dummy.m */,
+				006E151E7DDED66D3A5FA1125BE45FFB /* Then-Info.plist */,
+				D74B35D2FA590E3908F2EF81BE6F63C4 /* Then-prefix.pch */,
+				A48F76EBC05D0BB38C5999BA70932F32 /* Then-umbrella.h */,
+				09E9C0F56C3FAFDB38A4687C528C71D2 /* Then.debug.xcconfig */,
+				8473D7726C6961BA1BB45BC4C0CC11BF /* Then.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Then";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		060BB1B20BA9E27A56E10EAC0246DEEA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAECFDE34D0B7D65384C55949C4E0235 /* Pods-MainPageOrang-MainPageOrangUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D011153FBC9D48AECFE411D9259853C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BD63F00797EAC6489EB694A064F9FCC /* Pods-MainPageOrang-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A5E801054222C78D7E878580C83CCAC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5359A15DDEA913BBAFDA8266D930206 /* Pods-MainPageOrangTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		808B3C78170DE39A17382B38756CAA06 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E56EEF71CC5AF0DA40228F2CA67B4BA0 /* SideMenu-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0482E511DA59C90F7DB62C353302CD0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A892A3F92A4B151AD508CFCD080082A4 /* Then-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		7290E7AD6221D6E7B7DFD3967FEDC669 /* Pods-MainPageOrang-MainPageOrangUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C3F6B34F77D68475CF6B591C7726442 /* Build configuration list for PBXNativeTarget "Pods-MainPageOrang-MainPageOrangUITests" */;
+			buildPhases = (
+				060BB1B20BA9E27A56E10EAC0246DEEA /* Headers */,
+				3F12CDB83C28F4844FCE5C7B4228321F /* Sources */,
+				1C7F6B1A84587AC619A4EF31C405B20D /* Frameworks */,
+				C62CBC13B6B859E36EAB44C6AA9D7355 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				480838388D8C7767205D2D1C5517C53E /* PBXTargetDependency */,
+				EF0C6DCF1B62E339B3ACD0CFD4F3F3C9 /* PBXTargetDependency */,
+			);
+			name = "Pods-MainPageOrang-MainPageOrangUITests";
+			productName = Pods_MainPageOrang_MainPageOrangUITests;
+			productReference = 7AE9E9DA07F730CA7B94D86DBB6EDD65 /* Pods-MainPageOrang-MainPageOrangUITests */;
+			productType = "com.apple.product-type.framework";
+		};
+		82A954EA3798C942576943966B95847E /* Pods-MainPageOrangTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7316C8C353F0DECF57C251439F4D5312 /* Build configuration list for PBXNativeTarget "Pods-MainPageOrangTests" */;
+			buildPhases = (
+				5A5E801054222C78D7E878580C83CCAC /* Headers */,
+				F90CD62E264C8F6A07786DD6EEC25B38 /* Sources */,
+				8CED9114A89660561C1003E8ADB8FAE6 /* Frameworks */,
+				C8F8069532DF1826CCC4598234BEC8B9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0287D2F7CAF4F78201E7CB06825B2E96 /* PBXTargetDependency */,
+			);
+			name = "Pods-MainPageOrangTests";
+			productName = Pods_MainPageOrangTests;
+			productReference = FE1B3BE413D92E3FEC300E4E4CABABC1 /* Pods-MainPageOrangTests */;
+			productType = "com.apple.product-type.framework";
+		};
+		9E6064C946F9ABDC4D6951FA7A530139 /* Pods-MainPageOrang */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1EAB7A8AC86F5EDE102C7852D606ABC /* Build configuration list for PBXNativeTarget "Pods-MainPageOrang" */;
+			buildPhases = (
+				1D011153FBC9D48AECFE411D9259853C /* Headers */,
+				DC10AB694522313C02B8F63E1419496E /* Sources */,
+				7FE2248BE074A7DE206C4EC61CF99090 /* Frameworks */,
+				F79BF55EB4B5F83DC75F5798C88BE808 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0DD443E708AE072B7F09BC5E76BF9F1C /* PBXTargetDependency */,
+				F4CB6EA59EAEEF128066E2AD62562268 /* PBXTargetDependency */,
+			);
+			name = "Pods-MainPageOrang";
+			productName = Pods_MainPageOrang;
+			productReference = 2C1A98FE71A3A2460B9B62DEDC000A34 /* Pods-MainPageOrang */;
+			productType = "com.apple.product-type.framework";
+		};
+		C17AEFC79E770A2906EFAAB1A3757406 /* Then */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9066CF256D5B92C1B2C5053115F4AC74 /* Build configuration list for PBXNativeTarget "Then" */;
+			buildPhases = (
+				D0482E511DA59C90F7DB62C353302CD0 /* Headers */,
+				D9DF5AEE1B525A8BA763D0DFA7241A71 /* Sources */,
+				B110F4A89B80E9EA29019FC5CA16B326 /* Frameworks */,
+				08C52A0B42B9DFC342690EC119C9DFCA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Then;
+			productName = Then;
+			productReference = 9317E4947CA2FE1B5D5999034C09CCA7 /* Then */;
+			productType = "com.apple.product-type.framework";
+		};
+		C4A0A7D8591B67FB75E2E8D215E3735B /* SideMenu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4E63BB43B7167D15C142EB405422643 /* Build configuration list for PBXNativeTarget "SideMenu" */;
+			buildPhases = (
+				808B3C78170DE39A17382B38756CAA06 /* Headers */,
+				67D65F22C5D7053A68ADB3533240B850 /* Sources */,
+				5DC25AA7986F2BF0AC82E6132A31A66D /* Frameworks */,
+				C35CA0EF3E2BEED48FF33721BDC0D000 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SideMenu;
+			productName = SideMenu;
+			productReference = 319D06AA0D1D0BA345459C039040A1ED /* SideMenu */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = E71B9F74E1E9E03FA698C622B712F88D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9E6064C946F9ABDC4D6951FA7A530139 /* Pods-MainPageOrang */,
+				7290E7AD6221D6E7B7DFD3967FEDC669 /* Pods-MainPageOrang-MainPageOrangUITests */,
+				82A954EA3798C942576943966B95847E /* Pods-MainPageOrangTests */,
+				C4A0A7D8591B67FB75E2E8D215E3735B /* SideMenu */,
+				C17AEFC79E770A2906EFAAB1A3757406 /* Then */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		08C52A0B42B9DFC342690EC119C9DFCA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C35CA0EF3E2BEED48FF33721BDC0D000 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C62CBC13B6B859E36EAB44C6AA9D7355 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8F8069532DF1826CCC4598234BEC8B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F79BF55EB4B5F83DC75F5798C88BE808 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F12CDB83C28F4844FCE5C7B4228321F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0DE84C68DF4E38A487683891EF2A2FF /* Pods-MainPageOrang-MainPageOrangUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67D65F22C5D7053A68ADB3533240B850 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3BE0026C39E4B360BBDA0D5C57DD25D /* Deprecations.swift in Sources */,
+				F28D439429A375B6D4FCD037ED317CD6 /* Extensions.swift in Sources */,
+				74106BDED4B8B2281DFE4BE5E109D847 /* Initializable.swift in Sources */,
+				BE79F903F87E7D5918C6414E6203743E /* Print.swift in Sources */,
+				DAD5950A205347FCDBD3751604472431 /* Protected.swift in Sources */,
+				1F0DDBBAF86A028D6D60A7E10B4D3634 /* SideMenu-dummy.m in Sources */,
+				B804587E525773FCA9698855B2C752DC /* SideMenuAnimationController.swift in Sources */,
+				E97C7A323474D0205E872AE7BC773650 /* SideMenuInteractionController.swift in Sources */,
+				E709C98B763E8065628D8E88715E0BF8 /* SideMenuManager.swift in Sources */,
+				9E9F19E0120EA3C46967C28E637F52C8 /* SideMenuNavigationController.swift in Sources */,
+				057B453F4AE14D10EA77D38FA1A0B8FB /* SideMenuPresentationController.swift in Sources */,
+				5587C359D9C8789950E7F6585C2292E7 /* SideMenuPresentationStyle.swift in Sources */,
+				E72252B09CC270B50217CA6AEABD620A /* SideMenuPushCoordinator.swift in Sources */,
+				3817F4830A10E51D20B72530EF6A56D2 /* SideMenuTransitionController.swift in Sources */,
+				BC9C2E663681EDDBFE985034DCC7AAAF /* UITableViewVibrantCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9DF5AEE1B525A8BA763D0DFA7241A71 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3091F1A82E0FD6ABA766EBC91D4E5DE6 /* Then.swift in Sources */,
+				D936EF159A167C7E4C5E5764C22F458F /* Then-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC10AB694522313C02B8F63E1419496E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4935F0940B59F70B8816EC6CC939A75E /* Pods-MainPageOrang-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F90CD62E264C8F6A07786DD6EEC25B38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92FC3EDB69AE6439890C47543F67FAD6 /* Pods-MainPageOrangTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0287D2F7CAF4F78201E7CB06825B2E96 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-MainPageOrang";
+			target = 9E6064C946F9ABDC4D6951FA7A530139 /* Pods-MainPageOrang */;
+			targetProxy = CB339AA8781576972D08F79E2C58B318 /* PBXContainerItemProxy */;
+		};
+		0DD443E708AE072B7F09BC5E76BF9F1C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SideMenu;
+			target = C4A0A7D8591B67FB75E2E8D215E3735B /* SideMenu */;
+			targetProxy = 9299DE874E47C132F256A398F7441A5F /* PBXContainerItemProxy */;
+		};
+		480838388D8C7767205D2D1C5517C53E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SideMenu;
+			target = C4A0A7D8591B67FB75E2E8D215E3735B /* SideMenu */;
+			targetProxy = 69403D5006E1221325FFB2B36CF8E645 /* PBXContainerItemProxy */;
+		};
+		EF0C6DCF1B62E339B3ACD0CFD4F3F3C9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Then;
+			target = C17AEFC79E770A2906EFAAB1A3757406 /* Then */;
+			targetProxy = 56F26DA3694CA5105BC8975B808A47F2 /* PBXContainerItemProxy */;
+		};
+		F4CB6EA59EAEEF128066E2AD62562268 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Then;
+			target = C17AEFC79E770A2906EFAAB1A3757406 /* Then */;
+			targetProxy = 057F8B0B3EF24A2E7E42A9A3EDA2B825 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0196F410F146000BBDBF7D1397D9F140 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B369CF3D205D07A8ED98F20D8526CBF /* Pods-MainPageOrang-MainPageOrangUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MainPageOrang-MainPageOrangUITests/Pods-MainPageOrang-MainPageOrangUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MainPageOrang-MainPageOrangUITests/Pods-MainPageOrang-MainPageOrangUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		110E412D9BCBE2339CBAE1C26EA0494B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD2217A040AE3CB4921F11F642336534 /* Pods-MainPageOrangTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MainPageOrangTests/Pods-MainPageOrangTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MainPageOrangTests/Pods-MainPageOrangTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		446BA1B9A1F1F2F95D04E5F82EB1B0F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		46BFE2312ECDC35BEC02D94DC5B60F4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7AC5E25654862176C926714979C09FC /* SideMenu.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SideMenu/SideMenu-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SideMenu/SideMenu-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SideMenu/SideMenu.modulemap";
+				PRODUCT_MODULE_NAME = SideMenu;
+				PRODUCT_NAME = SideMenu;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		52235FB3181E517F1F2D37DE71959EE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09E9C0F56C3FAFDB38A4687C528C71D2 /* Then.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Then/Then-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Then/Then-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Then/Then.modulemap";
+				PRODUCT_MODULE_NAME = Then;
+				PRODUCT_NAME = Then;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5C03ED861463C33288AB5FE4400428E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 539785B4F9A1C9BC30AD48AB11345CCE /* Pods-MainPageOrang-MainPageOrangUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MainPageOrang-MainPageOrangUITests/Pods-MainPageOrang-MainPageOrangUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MainPageOrang-MainPageOrangUITests/Pods-MainPageOrang-MainPageOrangUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5D47E2EFAC6FAC81A782D9BFD8736F53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		5F698E5286A94E653EAB417671452ACD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF1E06BFABB01D7B200C34AF94A30A3F /* Pods-MainPageOrangTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MainPageOrangTests/Pods-MainPageOrangTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MainPageOrangTests/Pods-MainPageOrangTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6322A6F352D84CA3C888C68F4A90864F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10609FD65B88EA2A73F897E3F040346B /* Pods-MainPageOrang.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MainPageOrang/Pods-MainPageOrang-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MainPageOrang/Pods-MainPageOrang.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9DCE1D00E6D8163230168E6736AFE116 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8473D7726C6961BA1BB45BC4C0CC11BF /* Then.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Then/Then-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Then/Then-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Then/Then.modulemap";
+				PRODUCT_MODULE_NAME = Then;
+				PRODUCT_NAME = Then;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9E0C37648D76E361234D07CA876D0358 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E68C6FA2E8EE39C19E4629112DB91B3 /* SideMenu.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SideMenu/SideMenu-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SideMenu/SideMenu-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SideMenu/SideMenu.modulemap";
+				PRODUCT_MODULE_NAME = SideMenu;
+				PRODUCT_NAME = SideMenu;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A8A4DB437CB84586DD7E3C33BA432141 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 715EBE5DF0082D030E740CB648FBB07E /* Pods-MainPageOrang.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MainPageOrang/Pods-MainPageOrang-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MainPageOrang/Pods-MainPageOrang.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0C3F6B34F77D68475CF6B591C7726442 /* Build configuration list for PBXNativeTarget "Pods-MainPageOrang-MainPageOrangUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C03ED861463C33288AB5FE4400428E8 /* Debug */,
+				0196F410F146000BBDBF7D1397D9F140 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				446BA1B9A1F1F2F95D04E5F82EB1B0F4 /* Debug */,
+				5D47E2EFAC6FAC81A782D9BFD8736F53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7316C8C353F0DECF57C251439F4D5312 /* Build configuration list for PBXNativeTarget "Pods-MainPageOrangTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				110E412D9BCBE2339CBAE1C26EA0494B /* Debug */,
+				5F698E5286A94E653EAB417671452ACD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9066CF256D5B92C1B2C5053115F4AC74 /* Build configuration list for PBXNativeTarget "Then" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52235FB3181E517F1F2D37DE71959EE4 /* Debug */,
+				9DCE1D00E6D8163230168E6736AFE116 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4E63BB43B7167D15C142EB405422643 /* Build configuration list for PBXNativeTarget "SideMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E0C37648D76E361234D07CA876D0358 /* Debug */,
+				46BFE2312ECDC35BEC02D94DC5B60F4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1EAB7A8AC86F5EDE102C7852D606ABC /* Build configuration list for PBXNativeTarget "Pods-MainPageOrang" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8A4DB437CB84586DD7E3C33BA432141 /* Debug */,
+				6322A6F352D84CA3C888C68F4A90864F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
